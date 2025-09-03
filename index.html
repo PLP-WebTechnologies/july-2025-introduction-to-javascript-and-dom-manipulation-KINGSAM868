@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI in Construction Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚧 AI in Construction Industry Dashboard 🚀</h1>
+    <p>Estimate how Artificial Intelligence impacts your projects.</p>
+  </header>
+
+  <main>
+    <!-- Part 1 & 2: Input and Functions -->
+    <section>
+      <h2>AI Savings Estimator</h2>
+      <form id="estimatorForm">
+        <label>Number of Workers:</label>
+        <input type="number" id="workersInput" required>
+
+        <label>Project Budget (KES):</label>
+        <input type="number" id="budgetInput" required>
+
+        <label>Project Duration (Months):</label>
+        <input type="number" id="durationInput" required>
+
+        <button type="submit">Calculate Impact</button>
+      </form>
+      <div id="results"></div>
+    </section>
+
+    <!-- Part 3: Loops -->
+    <section>
+      <h2>AI Applications in Construction</h2>
+      <button id="listTechBtn">Show Technologies</button>
+      <ul id="techList"></ul>
+    </section>
+
+    <!-- Part 4: DOM -->
+    <section>
+      <h2>Learn More</h2>
+      <button id="toggleInfoBtn">Toggle Extra Insights</button>
+      <div id="extraInfo" class="hidden">
+        <p>AI reduces errors, saves costs, boosts worker productivity, and improves safety monitoring.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Abdi AI in Construction Dashboard</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
